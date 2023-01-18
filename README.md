@@ -3,15 +3,6 @@
 <a name="readme-top"></a>
 
 
-<div align="center">
-
-  <img src="images/logo.png" alt="logo" width="140"  height="auto" />
-  <br/>
-
-  <h3><b>To do list</b></h3>
-
-</div>
-
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
