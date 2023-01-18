@@ -38,6 +38,11 @@ li {
   padding-top: 30px;
 }
 
+ul input {
+  height: 40px;
+  width: 40px;
+}
+
 .add-div input {
   font-size: 1.5rem;
   font-style: italic;
@@ -67,15 +72,17 @@ li {
   list-style: none;
 }
 
-.single-list i {
-  position: relative;
-
-  right: 20px;
+i {
+  color: rgb(101, 93, 93);
 }
 
-ul input {
-  height: 40px;
-  width: 40px;
+i:hover {
+  color: rgb(197, 148, 88);
+}
+
+.single-list i {
+  position: relative;
+  right: 20px;
 }
 
 button {
@@ -84,14 +91,6 @@ button {
   color: rgb(148, 140, 140);
   padding: 30px;
   border-top: 1px solid rgb(165, 155, 155);
-}
-
-i {
-  color: rgb(101, 93, 93);
-}
-
-i:hover {
-  color: rgb(197, 148, 88);
 }
 
 img {
