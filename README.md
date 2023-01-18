@@ -54,7 +54,7 @@ Javascript
 
 >
 
-- [Live Demo Link](https://github.com/Jolak5/to-do-list/)
+- [Live Demo Link](https://jolak5.github.io/to-do-list/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
