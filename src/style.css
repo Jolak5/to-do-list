@@ -1,0 +1,98 @@
+body {
+  background-color: pink;
+  font-size: 16px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+p {
+  font-size: 2rem;
+}
+
+section {
+  margin: auto 0;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  width: auto;
+}
+
+.title-div {
+  border: 1px solid rgb(165, 155, 155);
+}
+
+.title-div,
+.add-div,
+li {
+  display: flex;
+  gap: 500px;
+  padding: 0 30px;
+  align-items: center;
+  background-color: aqua;
+}
+
+.add-div {
+  background-color: transparent;
+  padding-top: 30px;
+}
+
+ul input {
+  height: 40px;
+  width: 40px;
+}
+
+.add-div input {
+  font-size: 1.5rem;
+  font-style: italic;
+  border-style: none;
+  width: 23%;
+}
+
+ul {
+  padding: 10px 0;
+}
+
+.single-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 105px 20px 30px;
+}
+
+.li-div {
+  display: flex;
+  align-items: center;
+}
+
+li {
+  background-color: transparent;
+  font-size: 1.5rem;
+  list-style: none;
+}
+
+i {
+  color: rgb(101, 93, 93);
+}
+
+i:hover {
+  color: rgb(197, 148, 88);
+}
+
+.single-list i {
+  position: relative;
+  right: 20px;
+}
+
+button {
+  border-style: none;
+  font-size: 2rem;
+  color: rgb(148, 140, 140);
+  padding: 30px;
+  border-top: 1px solid rgb(165, 155, 155);
+}
+
+img {
+  background-color: black;
+}
