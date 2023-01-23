@@ -36,6 +36,7 @@ li {
 .add-div {
   background-color: transparent;
   padding-top: 30px;
+  cursor: pointer;
 }
 
 ul input {
@@ -48,6 +49,7 @@ ul input {
   font-style: italic;
   border-style: none;
   width: 23%;
+  cursor: pointer;
 }
 
 ul {
@@ -91,6 +93,7 @@ button {
   color: rgb(148, 140, 140);
   padding: 30px;
   border-top: 1px solid rgb(165, 155, 155);
+  cursor: pointer;
 }
 
 img {
