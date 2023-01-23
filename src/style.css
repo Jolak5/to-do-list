@@ -17,6 +17,10 @@ section {
   flex-direction: column;
   height: auto;
   width: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .title-div {
@@ -36,6 +40,7 @@ li {
 .add-div {
   background-color: transparent;
   padding-top: 30px;
+  gap: 100px;
 }
 
 ul input {
@@ -47,7 +52,7 @@ ul input {
   font-size: 1.5rem;
   font-style: italic;
   border-style: none;
-  width: 23%;
+  width: 100%;
 }
 
 ul {
