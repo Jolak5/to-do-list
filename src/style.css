@@ -23,24 +23,32 @@ section {
   transform: translate(-50%, -50%);
 }
 
-.title-div {
-  border: 1px solid rgb(165, 155, 155);
+li {
+  margin: 0;
+  list-style: none;
+  background-color: transparent;
+  font-size: 1.5rem;
+  border-top: 1px solid rgb(55, 51, 51);
 }
 
-.title-div,
-.add-div,
-li {
+label {
+  margin-left: 0.5em;
+}
+
+.title-div {
   display: flex;
-  gap: 500px;
+  width: 500px;
   padding: 0 30px;
   align-items: center;
   background-color: aqua;
+  border: 1px solid rgb(165, 155, 155);
 }
 
-.add-div {
+.containerTodo {
   background-color: transparent;
   padding-top: 30px;
-  gap: 100px;
+  gap: 10px;
+  width: 100%;
 }
 
 ul input {
@@ -48,15 +56,20 @@ ul input {
   width: 40px;
 }
 
-.add-div input {
+.inputElement {
+  width: 90%;
+}
+
+.containerTodo input {
   font-size: 1.5rem;
   font-style: italic;
-  border-style: none;
-  width: 100%;
+  margin: 5px 10px 5px 30px;
+  border: none;
 }
 
 ul {
   padding: 10px 0;
+  position: relative;
 }
 
 .single-list {
@@ -69,12 +82,6 @@ ul {
 .li-div {
   display: flex;
   align-items: center;
-}
-
-li {
-  background-color: transparent;
-  font-size: 1.5rem;
-  list-style: none;
 }
 
 i {
@@ -90,7 +97,55 @@ i:hover {
   right: 20px;
 }
 
-button {
+img {
+  background-color: black;
+}
+
+.editing {
+  background-color: #fffedd;
+}
+
+.itemElement {
+  display: flex;
+  gap: 500px;
+  padding: 10px 0;
+}
+
+.iconContainer {
+  display: flex;
+  align-items: center;
+  padding: 0;
+  width: min-content;
+  cursor: pointer;
+  position: absolute;
+  right: 30px;
+}
+
+.checkboxContainer {
+  display: flex;
+}
+
+.textInput {
+  font-family: 'Times New Roman', Times, serif;
+  color: #444;
+  display: block;
+  border: none !important;
+  outline: none;
+  justify-self: baseline;
+  background: transparent;
+  box-shadow: none;
+  overflow: auto;
+  font-size: 1.1rem;
+  font-style: normal;
+  resize: none;
+  margin: 0;
+  margin-left: 0.5em;
+  padding: 0;
+  word-wrap: break-word;
+  width: 20rem;
+}
+
+.btnCom {
   border-style: none;
   font-size: 2rem;
   color: rgb(148, 140, 140);
@@ -98,6 +153,6 @@ button {
   border-top: 1px solid rgb(165, 155, 155);
 }
 
-img {
-  background-color: black;
+.hidden {
+  display: none;
 }
