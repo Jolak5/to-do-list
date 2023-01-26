@@ -23,10 +23,6 @@ section {
   transform: translate(-50%, -50%);
 }
 
-.title-div {
-  border: 1px solid rgb(165, 155, 155);
-}
-
 li {
   margin: 0;
   list-style: none;
@@ -45,11 +41,11 @@ label {
   padding: 0 30px;
   align-items: center;
   background-color: aqua;
+  border: 1px solid rgb(165, 155, 155);
 }
 
 .containerTodo {
   background-color: transparent;
-  /* flex-direction: column; */
   padding-top: 30px;
   gap: 10px;
   width: 100%;
@@ -124,6 +120,7 @@ img {
   position: absolute;
   right: 30px;
 }
+
 .checkboxContainer {
   display: flex;
 }
