@@ -2,7 +2,6 @@
 
 <a name="readme-top"></a>
 
-
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
@@ -45,7 +44,7 @@ Javascript
 
 >
 
-- [Live Demo Link](https://jolak5.github.io/to-do-list/)
+- [Live Demo Link](https://jolak5.github.io/to-do-list/dist/index.html)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -58,26 +57,25 @@ To get a local copy up and running, follow these steps.
 ### Prerequisites
 
 In order to run this project you need: https://github.com/Jolak5/to-do-list
+
 - IDE (FOR EXAMPLE: VSCODE, ...)
-- TERMINAL 
-- GIT 
+- TERMINAL
+- GIT
 
 ### Setup
 
-Clone this repository to your desired folder: 
+Clone this repository to your desired folder:
 
 Example commands:
 
 ```sh
   git clone https://github.com/Jolak5/to-do-list
   cd to-d0-list
- ```
-
+```
 
 ### Usage
 
 To contribute to this project, execute the following command: git push https://github.com/Jolak5/to-do-list
-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
